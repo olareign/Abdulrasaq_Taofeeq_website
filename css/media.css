@@ -76,7 +76,7 @@
     }
     section.intro .intro-content {
         /* margin-top: -50px; */
-        padding: 50px;
+        padding: 50px 2%;
         text-align: center;
         width: 100%;
         background-color: #f5f5f5;
@@ -94,7 +94,7 @@
 
     .intro-content .intro-content__text p{
         width: 100%;
-        font-size: .9rem;
+        font-size: 1.1rem;
     }
     .intro-content .intro-hire__button{
         background: #f5f5f5;
