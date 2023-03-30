@@ -99,7 +99,6 @@
         margin: 20px 0;        
     }
     /* ///// services//// */
-    
     .services .services-cards{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -110,6 +109,14 @@
     }
     .services-cards .card:hover h2 {
         font-weight: 600;
+    }
+        
+    .services .services-cards{
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        text-align: center;
     }
     /* /////Projects////// */
     
