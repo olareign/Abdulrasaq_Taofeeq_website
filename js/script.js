@@ -3,6 +3,8 @@ const navList = document.querySelector('.list');
 const contactBtn = document.querySelector('.intro-btn');
 const contactIcon = document.querySelector('.intro-contact__icon');
 let number = document.querySelector('#number');
+const contactForm = document.querySelector('#contact-form');
+
 
 
 const showlist = () => {
