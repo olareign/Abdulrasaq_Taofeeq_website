@@ -2,18 +2,7 @@ const checkBtn = document.querySelector('.checkbtn');
 const navList = document.querySelector('.list');
 const contactBtn = document.querySelector('.intro-btn');
 const contactIcon = document.querySelector('.intro-contact__icon');
-
-// let number = document.querySelector('#number');
-// let counter = 0;
-
-// setInterval(() => {
-//     if(counter == 65){
-//         clearInterval();
-//     } else {
-//         counter += 1;
-//         number.innerHTML = counter + "%";
-//     }
-// }, 20)
+let number = document.querySelector('#number');
 
 
 const showlist = () => {
@@ -32,4 +21,13 @@ contactBtn.addEventListener('click', () => {
 })
 
 
+// let counter = 0;
 
+// setInterval(() => {
+//     if(counter == 65){
+//         clearInterval();
+//     } else {
+//         counter += 1;
+//         number.innerHTML = counter + "%";
+//     }
+// }, 20)
